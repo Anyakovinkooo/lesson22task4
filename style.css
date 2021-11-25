@@ -6,12 +6,14 @@ html {
   font-size: 16px;
 }
 .header {
+  display: flex;
   height: 3em;
   padding-left: 1em;
   padding-right: 1em;
   background-color: #eee;
 }
 .custom-button {
+  align-items: center;
   font-size: 2em;
   padding: 0;
   border: none;
@@ -20,7 +22,6 @@ html {
   cursor: pointer;
 }
 .fa-bars {
-  vertical-align: middle;
 }
 .navigation {
   width: 20vw;
